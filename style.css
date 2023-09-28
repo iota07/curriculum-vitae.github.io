@@ -4,7 +4,11 @@
     .main{
         display:grid;
         grid-template-columns: 1fr 2fr;
+        font-size:16px;
     }  
+    .career {
+        margin-left: 5px;
+    }
 
 }
 
@@ -14,7 +18,18 @@
     .main{
         display:grid;
         grid-template-columns: 1fr 2fr;
-    }  
+        font-size: 13px;
+    } 
+    .career {
+        margin-left: 5px;
+    }
+
+     
+    .table {
+        font-size: 11px;
+    }
+        
+   
 
 }
 
@@ -24,6 +39,7 @@
     .profile {
         font-size: 12px;
     }
+
     .career {
         font-size: 12px;
     }
@@ -41,7 +57,7 @@ body    {
     padding: 0;
     min-height:  100vh;
     font-family:Arial, Helvetica, sans-serif;
-    
+    color:#081869;
 }
 
 
@@ -52,27 +68,37 @@ body    {
 img {
     width: 100px;
     height: auto;
+    margin: auto;
     padding-top: 15px;
        
 }
 
-figure {
+.figure {
     height: 15vh;
+    margin-bottom: 30px;
 
 }
 
 .contact {
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .language {
     list-style-type: none;
 }
+.table {
+    border-top: solid #cacfe8;
+}
 
 .table h4 {
     font-weight: bold;
+    
 }
 
 h5 {
     font-weight: bold;
+}
+
+.lgClass {
+    list-style-type: none;
 }
