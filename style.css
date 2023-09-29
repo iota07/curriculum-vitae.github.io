@@ -81,11 +81,25 @@ img {
 
 .contact {
     margin-top: 30px;
+    margin-left: 5px;
 }
 
 .language {
     list-style-type: none;
 }
+
+.education li {
+    margin-bottom: 5px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.career {
+    margin-left: 5px;
+}
+
 .table {
     border-top: solid #cacfe8;
     width: 100%;
@@ -98,6 +112,7 @@ img {
 
 h5 {
     font-weight: bold;
+    margin-left: 5px;
 }
 
 h3 {
