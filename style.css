@@ -70,7 +70,8 @@ img {
     width: 100px;
     height: auto;
     margin: auto;
-    padding-top: 15px;
+    padding-top: auto;
+    box-shadow: 2px 2px 8px #081869;
        
 }
 
@@ -85,13 +86,20 @@ figcaption {
     font-weight: bold;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
+    text-shadow: 4px 4px 5px #7a8deb;
 
 }
 
 .contact {
     margin-top: 30px;
     margin-left: 5px;
+    font-stretch: semi-condensed ;
     
+}
+.contact p:hover {
+    font-size: larger;
+    font-weight: bold;
+    -webkit-text-fill-color: #081869;
 }
 
 .language {
@@ -115,14 +123,21 @@ figcaption {
     width: 100%;
 }
 
+.table tr:first-child td:first-child {
+    padding-right: 10px;
+    
+}
+
 .table h4 {
-    font-weight: bold;
+    font-weight: bold; 
     
 }
 
 h5 {
     font-weight: bold;
     margin-left: 5px;
+    text-shadow: 4px 4px 5px #7a8deb;
+    
 }
 
 h3 {
@@ -133,7 +148,18 @@ h3 {
 }
 
 
-.lgClass {
+.liparent {
     list-style-type: none;
+    font-weight: bold;
     
+}
+
+.lichild {
+    font-weight: lighter;
+    transform: scale(0.9);
+}
+
+.experience li {
+    transform: scale(0.9);
+
 }
