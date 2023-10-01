@@ -66,12 +66,13 @@ body    {
     box-shadow: 2px 2px 8px #081869;
 }
 
-img {
+.photo img {
     width: 100px;
     height: auto;
     margin: auto;
     padding-top: auto;
     box-shadow: 2px 2px 8px #081869;
+    border-radius: 15px;
        
 }
 
@@ -129,9 +130,11 @@ figcaption {
 }
 
 .table h4 {
+    display:flex 2 1;
     font-weight: bold; 
     
 }
+
 
 h5 {
     font-weight: bold;
