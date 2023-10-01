@@ -63,6 +63,7 @@ body    {
 
 .profile {
     background-color: lightgrey;
+    box-shadow: 2px 2px 8px #081869;
 }
 
 img {
@@ -79,9 +80,18 @@ img {
 
 }
 
+figcaption {
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+
 .contact {
     margin-top: 30px;
     margin-left: 5px;
+    
 }
 
 .language {
@@ -117,10 +127,13 @@ h5 {
 
 h3 {
     margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px 5px #7a8deb;
 
 }
 
 
 .lgClass {
     list-style-type: none;
+    
 }
